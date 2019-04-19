@@ -14,6 +14,9 @@
 		5A3CB87322685F4000784EAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A3CB87122685F4000784EAC /* LaunchScreen.storyboard */; };
 		5A3CB87E22685F4000784EAC /* Iffy_singleviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3CB87D22685F4000784EAC /* Iffy_singleviewTests.swift */; };
 		5A3CB88922685F4100784EAC /* Iffy_singleviewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3CB88822685F4100784EAC /* Iffy_singleviewUITests.swift */; };
+		5A3CB89722685FD700784EAC /* DataCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3CB89622685FD700784EAC /* DataCenter.swift */; };
+		5A3CB899226869CB00784EAC /* IffyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3CB898226869CB00784EAC /* IffyTableViewController.swift */; };
+		6250BFA62269D78700425719 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6250BFA52269D78700425719 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		5A3CB88422685F4100784EAC /* Iffy_singleviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Iffy_singleviewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A3CB88822685F4100784EAC /* Iffy_singleviewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Iffy_singleviewUITests.swift; sourceTree = "<group>"; };
 		5A3CB88A22685F4100784EAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A3CB89622685FD700784EAC /* DataCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataCenter.swift; sourceTree = "<group>"; };
+		5A3CB898226869CB00784EAC /* IffyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IffyTableViewController.swift; sourceTree = "<group>"; };
+		6250BFA52269D78700425719 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +106,12 @@
 				5A3CB86822685F3E00784EAC /* AppDelegate.swift */,
 				5A3CB86A22685F3E00784EAC /* ViewController.swift */,
 				5A3CB86C22685F3E00784EAC /* Main.storyboard */,
+				6250BFA52269D78700425719 /* DetailViewController.swift */,
+				5A3CB898226869CB00784EAC /* IffyTableViewController.swift */,
 				5A3CB86F22685F4000784EAC /* Assets.xcassets */,
 				5A3CB87122685F4000784EAC /* LaunchScreen.storyboard */,
 				5A3CB87422685F4000784EAC /* Info.plist */,
+				5A3CB89622685FD700784EAC /* DataCenter.swift */,
 			);
 			path = Iffy_singleview;
 			sourceTree = "<group>";
@@ -256,6 +265,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A3CB89722685FD700784EAC /* DataCenter.swift in Sources */,
+				5A3CB899226869CB00784EAC /* IffyTableViewController.swift in Sources */,
+				6250BFA62269D78700425719 /* DetailViewController.swift in Sources */,
 				5A3CB86B22685F3E00784EAC /* ViewController.swift in Sources */,
 				5A3CB86922685F3E00784EAC /* AppDelegate.swift in Sources */,
 			);
